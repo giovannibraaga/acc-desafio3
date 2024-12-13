@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url('https://petrosolgas.com.br/wp-content/uploads/2022/11/Accenture-abre-205-vagas-de-emprego-para-pessoas-que-queiram-trabalhar-sem-sair-de-casa.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 91.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161, 9, 254, 0.45);
+}
+
+.hero-content {
+    position: relative;
+}
+
+.navbar {
+    height: 75px;
+}
+
+.logo-accenture img {
+    height: 40px;
+}
